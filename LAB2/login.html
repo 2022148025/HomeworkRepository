@@ -7,6 +7,9 @@
         <link rel = "stylesheet" href = "main.css" type = "text/css">
     </head>
     <body>
+        <div class="GREETING">
+            <h1>Welcome to 시우's<br>INTERNET-PROGRAMMING SHOP</h1>
+        </div>
         <form method="post" action="http://www.example.com">
             <div class="LOGIN">
                 <p>
@@ -18,7 +21,8 @@
                         <input name="userdata" type="text" size="25" placeholder="비밀번호를 입력하세요" required>
                     </label> <br><br>
                     <button type="submit" class="LOGIN_BUTTON" autofocus>로그인</button>
-                    <a href="signup.html"><input type="button" value="회원가입" class="LOGIN_BUTTON"></a>             
+                    <button type="button" class="LOGIN_BUTTON" onclick="location.href='./signup.html'">회원가입</button>
+                
                 </p>
             </div>
         </form>
