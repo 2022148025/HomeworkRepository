@@ -1,0 +1,74 @@
+body    {background-color: rgb(227, 237, 255);}
+.GREETING   {font-family:'Times New Roman', Times, serif;
+            font-size: 20pt;
+            color: darkblue;
+            text-align: center;}
+.GREEN_BUTTON { margin-right: 3px;
+                background-color: aquamarine;
+                text-align: center;
+                margin-bottom: 10px;
+                border-style: none;
+                padding: 2px 0px 2px 0px;
+                font-size: 16px;
+                }
+.GREEN_BUTTON:hover { margin-right: 3px;
+                background-color: aquamarine;
+                text-align: center;
+                margin-bottom: 10px;
+                border-style: none;
+                padding: 2px 0px 2px 0px;
+                font-size: 16px;
+                color:white;
+                }
+.RED_BUTTON {background-color: rgb(255, 0, 0);
+            text-align: center;
+            margin-bottom: 10px;
+            border-style: none;
+            padding: 2px 0px 2px 0px;
+            font-size: 16px;
+            }
+.RED_BUTTON:hover {background-color: rgb(255, 0, 0);
+            text-align: center;
+            margin-bottom: 10px;
+            border-style: none;
+            padding: 2px 0px 2px 0px;
+            font-size: 16px;
+            color:white;
+            }
+.LOGIN_BUTTON { margin-right: 3px;
+                text-align: center;
+                margin-bottom: 10px;
+                border-style: none;
+                background-color: white;
+                padding: 2px 0px 2px 0px;
+                font-size: 18px; }
+.LOGIN_BUTTON:hover {text-align: center;
+                    margin-bottom: 10px;
+                    border-style: none;
+                    background-color: black;
+                    color: white;
+                    padding: 2px 0px 2px 0px;
+                    font-size: 18px;}
+.SIGNUP_BUTTON {text-align: center;
+                margin-bottom: 10px;
+                border-style: none;
+                background-color: black;
+                color: white;
+                padding: 2px 0px 2px 0px;
+                font-size: 18px;}
+
+.USER_DATA {width: auto; 
+            height: auto;
+            margin:0px;
+            border-style: solid;
+            border-color: black;
+            border-width: thin;
+            }
+
+.LOGIN {width: auto; 
+        height: auto;
+        margin:0px;
+        border-style: solid;
+        border-color: black;
+        border-width: thin;
+        }
